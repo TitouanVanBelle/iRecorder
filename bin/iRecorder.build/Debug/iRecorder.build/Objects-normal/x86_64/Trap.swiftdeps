@@ -1,0 +1,228 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Trap"
+provides-nominal:
+- "9irecorder4TrapC"
+- "9irecorder4TrapC6SignalO"
+provides-member:
+- ["9irecorder4TrapC", ""]
+- ["9irecorder4TrapC6SignalO", ""]
+- ["9irecorder4TrapC", "handle"]
+- ["9irecorder4TrapC", "handle"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Array"
+- !private "FloatLiteralType"
+- "Int32"
+- !private "IntegerLiteralType"
+- !private "SIGABRT"
+- !private "SIGALRM"
+- !private "SIGHUP"
+- !private "SIGILL"
+- !private "SIGINT"
+- !private "SIGKILL"
+- !private "SIGTERM"
+- !private "SIGTRAP"
+- "Trap"
+- "Void"
+- !private "__sigaction_u"
+- !private "sigaction"
+- !private "unsafeBitCast"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["Sa", "forEach"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s9DecodableP", "forEach"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "forEach"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EquatableP", "SIGABRT"]
+- !private ["s9EquatableP", "SIGALRM"]
+- !private ["s9EquatableP", "SIGHUP"]
+- !private ["s9EquatableP", "SIGILL"]
+- !private ["s9EquatableP", "SIGINT"]
+- !private ["s9EquatableP", "SIGKILL"]
+- !private ["s9EquatableP", "SIGTERM"]
+- !private ["s9EquatableP", "SIGTRAP"]
+- ["s9EquatableP", "abort"]
+- ["s9EquatableP", "alarm"]
+- ["s9EquatableP", "hangup"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "illegal"]
+- ["s9EquatableP", "interrupt"]
+- ["s9EquatableP", "kill"]
+- !private ["s9EquatableP", "osValue"]
+- ["s9EquatableP", "termination"]
+- ["s9EquatableP", "trap"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "SIGABRT"]
+- !private ["s8HashableP", "SIGALRM"]
+- !private ["s8HashableP", "SIGHUP"]
+- !private ["s8HashableP", "SIGILL"]
+- !private ["s8HashableP", "SIGINT"]
+- !private ["s8HashableP", "SIGKILL"]
+- !private ["s8HashableP", "SIGTERM"]
+- !private ["s8HashableP", "SIGTRAP"]
+- ["s8HashableP", "abort"]
+- ["s8HashableP", "alarm"]
+- ["s8HashableP", "hangup"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "illegal"]
+- ["s8HashableP", "interrupt"]
+- ["s8HashableP", "kill"]
+- !private ["s8HashableP", "osValue"]
+- ["s8HashableP", "termination"]
+- ["s8HashableP", "trap"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s8SequenceP", "forEach"]
+- ["9irecorder4TrapC6SignalO", "Int32"]
+- !private ["9irecorder4TrapC6SignalO", "SIGABRT"]
+- !private ["9irecorder4TrapC6SignalO", "SIGALRM"]
+- !private ["9irecorder4TrapC6SignalO", "SIGHUP"]
+- !private ["9irecorder4TrapC6SignalO", "SIGILL"]
+- !private ["9irecorder4TrapC6SignalO", "SIGINT"]
+- !private ["9irecorder4TrapC6SignalO", "SIGKILL"]
+- !private ["9irecorder4TrapC6SignalO", "SIGTERM"]
+- !private ["9irecorder4TrapC6SignalO", "SIGTRAP"]
+- ["9irecorder4TrapC6SignalO", "__derived_enum_equals"]
+- ["9irecorder4TrapC6SignalO", "abort"]
+- ["9irecorder4TrapC6SignalO", "alarm"]
+- ["9irecorder4TrapC6SignalO", "all"]
+- ["9irecorder4TrapC6SignalO", "deinit"]
+- ["9irecorder4TrapC6SignalO", "hangup"]
+- ["9irecorder4TrapC6SignalO", "hashValue"]
+- ["9irecorder4TrapC6SignalO", "illegal"]
+- ["9irecorder4TrapC6SignalO", "interrupt"]
+- ["9irecorder4TrapC6SignalO", "kill"]
+- ["9irecorder4TrapC6SignalO", "osValue"]
+- ["9irecorder4TrapC6SignalO", "termination"]
+- ["9irecorder4TrapC6SignalO", "trap"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["9irecorder4TrapC", "Int32"]
+- !private ["9irecorder4TrapC", "SIGABRT"]
+- !private ["9irecorder4TrapC", "SIGALRM"]
+- !private ["9irecorder4TrapC", "SIGHUP"]
+- !private ["9irecorder4TrapC", "SIGILL"]
+- !private ["9irecorder4TrapC", "SIGINT"]
+- !private ["9irecorder4TrapC", "SIGKILL"]
+- !private ["9irecorder4TrapC", "SIGTERM"]
+- !private ["9irecorder4TrapC", "SIGTRAP"]
+- ["9irecorder4TrapC", "Signal"]
+- ["9irecorder4TrapC", "SignalHandler"]
+- ["9irecorder4TrapC", "Void"]
+- !private ["9irecorder4TrapC", "__sigaction_u"]
+- ["9irecorder4TrapC", "deinit"]
+- ["9irecorder4TrapC", "handle"]
+- ["9irecorder4TrapC", "init"]
+- !private ["9irecorder4TrapC", "sigaction"]
+- !private ["9irecorder4TrapC", "unsafeBitCast"]
+- !private ["9irecorder4TrapC", "withUnsafePointer"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s23_BidirectionalIndexableP", "forEach"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s10_IndexableP", "forEach"]
+- !private ["s14_IndexableBaseP", "forEach"]
+- !private ["s17_MutableIndexableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s22_RandomAccessIndexableP", "forEach"]
+- !private ["s26_RangeReplaceableIndexableP", "forEach"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["SC9sigactionV", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "9irecorder4TrapC6SignalO"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "9irecorder4TrapC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "SC9sigactionV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/iRecorder-Bridging-Header.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeader.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeaderHelper.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/support.h"
+interface-hash: "34785fb5c4f83766f26d249eb2297137"

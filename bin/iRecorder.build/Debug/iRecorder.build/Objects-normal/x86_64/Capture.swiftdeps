@@ -1,0 +1,660 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Capture"
+provides-nominal:
+- "9irecorder7CaptureC"
+provides-member:
+- ["9irecorder7CaptureC", ""]
+provides-dynamic-lookup:
+- "fileOutput"
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AVCaptureConnection"
+- "AVCaptureDevice"
+- "AVCaptureDeviceInput"
+- "AVCaptureFileOutput"
+- "AVCaptureFileOutputRecordingDelegate"
+- "AVCaptureMovieFileOutput"
+- "AVCaptureSession"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CMIOObjectID"
+- !private "CMIOObjectPropertyAddress"
+- !private "CMIOObjectPropertyElement"
+- !private "CMIOObjectPropertyScope"
+- !private "CMIOObjectPropertySelector"
+- !private "CMIOObjectSetPropertyData"
+- "Capture"
+- "Error"
+- !private "NSError"
+- !private "NSLog"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- !private "UInt32"
+- "URL"
+- !private "kCMIOHardwarePropertyAllowScreenCaptureDevices"
+- !private "kCMIOObjectPropertyElementMaster"
+- !private "kCMIOObjectPropertyScopeGlobal"
+- !private "kCMIOObjectSystemObject"
+- !private "print"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "devices"]
+- !private ["So15AVCaptureDeviceC", "localizedName"]
+- !private ["So15AVCaptureDeviceC", "uniqueID"]
+- !private ["So20AVCaptureDeviceInputC", "init"]
+- !private ["So19AVCaptureFileOutputC", "init"]
+- !private ["So19AVCaptureFileOutputC", "startRecording"]
+- !private ["So19AVCaptureFileOutputC", "stopRecording"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "AVCaptureDevice"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "AVCaptureDeviceInput"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "AVCaptureMovieFileOutput"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "AVCaptureSession"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CMIOObjectID"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CMIOObjectPropertyAddress"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CMIOObjectPropertyElement"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CMIOObjectPropertyScope"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CMIOObjectPropertySelector"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "CMIOObjectSetPropertyData"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "NSLog"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "URL"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "capture"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "captureDevices"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "captureOutput"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "fileOutput"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "finished"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "input"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "kCMIOObjectPropertyElementMaster"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "kCMIOObjectSystemObject"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "output"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "print"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "session"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "started"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", ""]
+- !private ["So14AVCaptureInputC", "init"]
+- !private ["So24AVCaptureMovieFileOutputC", "init"]
+- !private ["So24AVCaptureMovieFileOutputC", "startRecording"]
+- !private ["So24AVCaptureMovieFileOutputC", "stopRecording"]
+- !private ["So15AVCaptureOutputC", "init"]
+- !private ["So15AVCaptureOutputC", "startRecording"]
+- !private ["So15AVCaptureOutputC", "stopRecording"]
+- !private ["So16AVCaptureSessionC", "Preset"]
+- !private ["So16AVCaptureSessionC", "addInput"]
+- !private ["So16AVCaptureSessionC", "addOutput"]
+- !private ["So16AVCaptureSessionC", "canAddInput"]
+- !private ["So16AVCaptureSessionC", "canAddOutput"]
+- !private ["So16AVCaptureSessionC", "init"]
+- !private ["So16AVCaptureSessionC", "sessionPreset"]
+- !private ["So16AVCaptureSessionC", "startRunning"]
+- !private ["So16AVCaptureSessionC", "stopRunning"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC25CMIOObjectPropertyAddressV", "init"]
+- !private ["s7CVarArgP", "AVCaptureDevice"]
+- !private ["s7CVarArgP", "AVCaptureDeviceInput"]
+- !private ["s7CVarArgP", "AVCaptureMovieFileOutput"]
+- !private ["s7CVarArgP", "AVCaptureSession"]
+- !private ["s7CVarArgP", "CMIOObjectID"]
+- !private ["s7CVarArgP", "CMIOObjectPropertyAddress"]
+- !private ["s7CVarArgP", "CMIOObjectPropertyElement"]
+- !private ["s7CVarArgP", "CMIOObjectPropertyScope"]
+- !private ["s7CVarArgP", "CMIOObjectPropertySelector"]
+- !private ["s7CVarArgP", "CMIOObjectSetPropertyData"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "Preset"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "addInput"]
+- !private ["s7CVarArgP", "addOutput"]
+- !private ["s7CVarArgP", "canAddInput"]
+- !private ["s7CVarArgP", "canAddOutput"]
+- ["s7CVarArgP", "capture"]
+- !private ["s7CVarArgP", "captureDevices"]
+- ["s7CVarArgP", "captureOutput"]
+- !private ["s7CVarArgP", "devices"]
+- ["s7CVarArgP", "fileOutput"]
+- !private ["s7CVarArgP", "finished"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "input"]
+- !private ["s7CVarArgP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["s7CVarArgP", "kCMIOObjectPropertyElementMaster"]
+- !private ["s7CVarArgP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["s7CVarArgP", "kCMIOObjectSystemObject"]
+- !private ["s7CVarArgP", "localizedName"]
+- !private ["s7CVarArgP", "output"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "session"]
+- !private ["s7CVarArgP", "sessionPreset"]
+- !private ["s7CVarArgP", "startRecording"]
+- !private ["s7CVarArgP", "startRunning"]
+- !private ["s7CVarArgP", "started"]
+- !private ["s7CVarArgP", "stopRecording"]
+- !private ["s7CVarArgP", "stopRunning"]
+- !private ["s7CVarArgP", "uniqueID"]
+- ["s7CVarArgP", ""]
+- ["9irecorder7CaptureC", "AVCaptureConnection"]
+- ["9irecorder7CaptureC", "AVCaptureDevice"]
+- ["9irecorder7CaptureC", "AVCaptureDeviceInput"]
+- ["9irecorder7CaptureC", "AVCaptureFileOutput"]
+- ["9irecorder7CaptureC", "AVCaptureMovieFileOutput"]
+- ["9irecorder7CaptureC", "AVCaptureSession"]
+- ["9irecorder7CaptureC", "Bool"]
+- !private ["9irecorder7CaptureC", "CMIOObjectID"]
+- !private ["9irecorder7CaptureC", "CMIOObjectPropertyAddress"]
+- !private ["9irecorder7CaptureC", "CMIOObjectPropertyElement"]
+- !private ["9irecorder7CaptureC", "CMIOObjectPropertyScope"]
+- !private ["9irecorder7CaptureC", "CMIOObjectPropertySelector"]
+- !private ["9irecorder7CaptureC", "CMIOObjectSetPropertyData"]
+- ["9irecorder7CaptureC", "Error"]
+- !private ["9irecorder7CaptureC", "NSError"]
+- !private ["9irecorder7CaptureC", "NSLog"]
+- ["9irecorder7CaptureC", "String"]
+- !private ["9irecorder7CaptureC", "UInt32"]
+- ["9irecorder7CaptureC", "URL"]
+- ["9irecorder7CaptureC", "capture"]
+- ["9irecorder7CaptureC", "captureDevices"]
+- ["9irecorder7CaptureC", "captureOutput"]
+- ["9irecorder7CaptureC", "deinit"]
+- ["9irecorder7CaptureC", "fileOutput"]
+- ["9irecorder7CaptureC", "finished"]
+- ["9irecorder7CaptureC", "init"]
+- ["9irecorder7CaptureC", "input"]
+- !private ["9irecorder7CaptureC", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["9irecorder7CaptureC", "kCMIOObjectPropertyElementMaster"]
+- !private ["9irecorder7CaptureC", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["9irecorder7CaptureC", "kCMIOObjectSystemObject"]
+- ["9irecorder7CaptureC", "output"]
+- !private ["9irecorder7CaptureC", "print"]
+- ["9irecorder7CaptureC", "session"]
+- ["9irecorder7CaptureC", "setDeviceById"]
+- ["9irecorder7CaptureC", "setDeviceByName"]
+- ["9irecorder7CaptureC", "setQuality"]
+- ["9irecorder7CaptureC", "start"]
+- ["9irecorder7CaptureC", "started"]
+- ["9irecorder7CaptureC", "stop"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDeviceInput"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureMovieFileOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureSession"]
+- !private ["s28CustomDebugStringConvertibleP", "CMIOObjectID"]
+- !private ["s28CustomDebugStringConvertibleP", "CMIOObjectPropertyAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "CMIOObjectPropertyElement"]
+- !private ["s28CustomDebugStringConvertibleP", "CMIOObjectPropertyScope"]
+- !private ["s28CustomDebugStringConvertibleP", "CMIOObjectPropertySelector"]
+- !private ["s28CustomDebugStringConvertibleP", "CMIOObjectSetPropertyData"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "Preset"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "addInput"]
+- !private ["s28CustomDebugStringConvertibleP", "addOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "canAddInput"]
+- !private ["s28CustomDebugStringConvertibleP", "canAddOutput"]
+- ["s28CustomDebugStringConvertibleP", "capture"]
+- !private ["s28CustomDebugStringConvertibleP", "captureDevices"]
+- ["s28CustomDebugStringConvertibleP", "captureOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "devices"]
+- ["s28CustomDebugStringConvertibleP", "fileOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "finished"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "input"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMIOObjectPropertyElementMaster"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMIOObjectSystemObject"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedName"]
+- !private ["s28CustomDebugStringConvertibleP", "output"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "session"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionPreset"]
+- !private ["s28CustomDebugStringConvertibleP", "startRecording"]
+- !private ["s28CustomDebugStringConvertibleP", "startRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "started"]
+- !private ["s28CustomDebugStringConvertibleP", "stopRecording"]
+- !private ["s28CustomDebugStringConvertibleP", "stopRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "uniqueID"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDevice"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDeviceInput"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureMovieFileOutput"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureSession"]
+- !private ["s23CustomStringConvertibleP", "CMIOObjectID"]
+- !private ["s23CustomStringConvertibleP", "CMIOObjectPropertyAddress"]
+- !private ["s23CustomStringConvertibleP", "CMIOObjectPropertyElement"]
+- !private ["s23CustomStringConvertibleP", "CMIOObjectPropertyScope"]
+- !private ["s23CustomStringConvertibleP", "CMIOObjectPropertySelector"]
+- !private ["s23CustomStringConvertibleP", "CMIOObjectSetPropertyData"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "Preset"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addInput"]
+- !private ["s23CustomStringConvertibleP", "addOutput"]
+- !private ["s23CustomStringConvertibleP", "canAddInput"]
+- !private ["s23CustomStringConvertibleP", "canAddOutput"]
+- ["s23CustomStringConvertibleP", "capture"]
+- !private ["s23CustomStringConvertibleP", "captureDevices"]
+- ["s23CustomStringConvertibleP", "captureOutput"]
+- !private ["s23CustomStringConvertibleP", "devices"]
+- ["s23CustomStringConvertibleP", "fileOutput"]
+- !private ["s23CustomStringConvertibleP", "finished"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "input"]
+- !private ["s23CustomStringConvertibleP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["s23CustomStringConvertibleP", "kCMIOObjectPropertyElementMaster"]
+- !private ["s23CustomStringConvertibleP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["s23CustomStringConvertibleP", "kCMIOObjectSystemObject"]
+- !private ["s23CustomStringConvertibleP", "localizedName"]
+- !private ["s23CustomStringConvertibleP", "output"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "session"]
+- !private ["s23CustomStringConvertibleP", "sessionPreset"]
+- !private ["s23CustomStringConvertibleP", "startRecording"]
+- !private ["s23CustomStringConvertibleP", "startRunning"]
+- !private ["s23CustomStringConvertibleP", "started"]
+- !private ["s23CustomStringConvertibleP", "stopRecording"]
+- !private ["s23CustomStringConvertibleP", "stopRunning"]
+- !private ["s23CustomStringConvertibleP", "uniqueID"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AVCaptureDevice"]
+- !private ["s9EquatableP", "AVCaptureDeviceInput"]
+- !private ["s9EquatableP", "AVCaptureMovieFileOutput"]
+- !private ["s9EquatableP", "AVCaptureSession"]
+- !private ["s9EquatableP", "CMIOObjectID"]
+- !private ["s9EquatableP", "CMIOObjectPropertyAddress"]
+- !private ["s9EquatableP", "CMIOObjectPropertyElement"]
+- !private ["s9EquatableP", "CMIOObjectPropertyScope"]
+- !private ["s9EquatableP", "CMIOObjectPropertySelector"]
+- !private ["s9EquatableP", "CMIOObjectSetPropertyData"]
+- !private ["s9EquatableP", "NSLog"]
+- !private ["s9EquatableP", "Preset"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addInput"]
+- !private ["s9EquatableP", "addOutput"]
+- !private ["s9EquatableP", "canAddInput"]
+- !private ["s9EquatableP", "canAddOutput"]
+- ["s9EquatableP", "capture"]
+- !private ["s9EquatableP", "captureDevices"]
+- ["s9EquatableP", "captureOutput"]
+- !private ["s9EquatableP", "devices"]
+- ["s9EquatableP", "fileOutput"]
+- !private ["s9EquatableP", "finished"]
+- !private ["s9EquatableP", "high"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "input"]
+- !private ["s9EquatableP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["s9EquatableP", "kCMIOObjectPropertyElementMaster"]
+- !private ["s9EquatableP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["s9EquatableP", "kCMIOObjectSystemObject"]
+- !private ["s9EquatableP", "localizedName"]
+- !private ["s9EquatableP", "low"]
+- !private ["s9EquatableP", "medium"]
+- !private ["s9EquatableP", "output"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "session"]
+- !private ["s9EquatableP", "sessionPreset"]
+- !private ["s9EquatableP", "startRecording"]
+- !private ["s9EquatableP", "startRunning"]
+- !private ["s9EquatableP", "started"]
+- !private ["s9EquatableP", "stopRecording"]
+- !private ["s9EquatableP", "stopRunning"]
+- !private ["s9EquatableP", "uniqueID"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "AVCaptureDevice"]
+- !private ["s8HashableP", "AVCaptureDeviceInput"]
+- !private ["s8HashableP", "AVCaptureMovieFileOutput"]
+- !private ["s8HashableP", "AVCaptureSession"]
+- !private ["s8HashableP", "CMIOObjectID"]
+- !private ["s8HashableP", "CMIOObjectPropertyAddress"]
+- !private ["s8HashableP", "CMIOObjectPropertyElement"]
+- !private ["s8HashableP", "CMIOObjectPropertyScope"]
+- !private ["s8HashableP", "CMIOObjectPropertySelector"]
+- !private ["s8HashableP", "CMIOObjectSetPropertyData"]
+- !private ["s8HashableP", "NSLog"]
+- !private ["s8HashableP", "Preset"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addInput"]
+- !private ["s8HashableP", "addOutput"]
+- !private ["s8HashableP", "canAddInput"]
+- !private ["s8HashableP", "canAddOutput"]
+- ["s8HashableP", "capture"]
+- !private ["s8HashableP", "captureDevices"]
+- ["s8HashableP", "captureOutput"]
+- !private ["s8HashableP", "devices"]
+- ["s8HashableP", "fileOutput"]
+- !private ["s8HashableP", "finished"]
+- !private ["s8HashableP", "high"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "input"]
+- !private ["s8HashableP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["s8HashableP", "kCMIOObjectPropertyElementMaster"]
+- !private ["s8HashableP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["s8HashableP", "kCMIOObjectSystemObject"]
+- !private ["s8HashableP", "localizedName"]
+- !private ["s8HashableP", "low"]
+- !private ["s8HashableP", "medium"]
+- !private ["s8HashableP", "output"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "session"]
+- !private ["s8HashableP", "sessionPreset"]
+- !private ["s8HashableP", "startRecording"]
+- !private ["s8HashableP", "startRunning"]
+- !private ["s8HashableP", "started"]
+- !private ["s8HashableP", "stopRecording"]
+- !private ["s8HashableP", "stopRunning"]
+- !private ["s8HashableP", "uniqueID"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AVCaptureConnection"]
+- ["So8NSObjectC", "AVCaptureDevice"]
+- ["So8NSObjectC", "AVCaptureDeviceInput"]
+- ["So8NSObjectC", "AVCaptureFileOutput"]
+- ["So8NSObjectC", "AVCaptureMovieFileOutput"]
+- ["So8NSObjectC", "AVCaptureSession"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CMIOObjectID"]
+- !private ["So8NSObjectC", "CMIOObjectPropertyAddress"]
+- !private ["So8NSObjectC", "CMIOObjectPropertyElement"]
+- !private ["So8NSObjectC", "CMIOObjectPropertyScope"]
+- !private ["So8NSObjectC", "CMIOObjectPropertySelector"]
+- !private ["So8NSObjectC", "CMIOObjectSetPropertyData"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSLog"]
+- !private ["So8NSObjectC", "Preset"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UInt32"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "addInput"]
+- !private ["So8NSObjectC", "addOutput"]
+- !private ["So8NSObjectC", "canAddInput"]
+- !private ["So8NSObjectC", "canAddOutput"]
+- ["So8NSObjectC", "capture"]
+- ["So8NSObjectC", "captureDevices"]
+- ["So8NSObjectC", "captureOutput"]
+- !private ["So8NSObjectC", "devices"]
+- ["So8NSObjectC", "fileOutput"]
+- ["So8NSObjectC", "finished"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "input"]
+- !private ["So8NSObjectC", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["So8NSObjectC", "kCMIOObjectPropertyElementMaster"]
+- !private ["So8NSObjectC", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["So8NSObjectC", "kCMIOObjectSystemObject"]
+- !private ["So8NSObjectC", "localizedName"]
+- ["So8NSObjectC", "output"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "session"]
+- !private ["So8NSObjectC", "sessionPreset"]
+- ["So8NSObjectC", "setDeviceById"]
+- ["So8NSObjectC", "setDeviceByName"]
+- ["So8NSObjectC", "setQuality"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "startRecording"]
+- !private ["So8NSObjectC", "startRunning"]
+- ["So8NSObjectC", "started"]
+- ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "stopRecording"]
+- !private ["So8NSObjectC", "stopRunning"]
+- !private ["So8NSObjectC", "uniqueID"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "AVCaptureDevice"]
+- !private ["So16NSObjectProtocolP", "AVCaptureDeviceInput"]
+- !private ["So16NSObjectProtocolP", "AVCaptureMovieFileOutput"]
+- !private ["So16NSObjectProtocolP", "AVCaptureSession"]
+- !private ["So16NSObjectProtocolP", "CMIOObjectID"]
+- !private ["So16NSObjectProtocolP", "CMIOObjectPropertyAddress"]
+- !private ["So16NSObjectProtocolP", "CMIOObjectPropertyElement"]
+- !private ["So16NSObjectProtocolP", "CMIOObjectPropertyScope"]
+- !private ["So16NSObjectProtocolP", "CMIOObjectPropertySelector"]
+- !private ["So16NSObjectProtocolP", "CMIOObjectSetPropertyData"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- !private ["So16NSObjectProtocolP", "Preset"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "addInput"]
+- !private ["So16NSObjectProtocolP", "addOutput"]
+- !private ["So16NSObjectProtocolP", "canAddInput"]
+- !private ["So16NSObjectProtocolP", "canAddOutput"]
+- ["So16NSObjectProtocolP", "capture"]
+- !private ["So16NSObjectProtocolP", "captureDevices"]
+- ["So16NSObjectProtocolP", "captureOutput"]
+- !private ["So16NSObjectProtocolP", "devices"]
+- ["So16NSObjectProtocolP", "fileOutput"]
+- !private ["So16NSObjectProtocolP", "finished"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "input"]
+- !private ["So16NSObjectProtocolP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["So16NSObjectProtocolP", "kCMIOObjectPropertyElementMaster"]
+- !private ["So16NSObjectProtocolP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["So16NSObjectProtocolP", "kCMIOObjectSystemObject"]
+- !private ["So16NSObjectProtocolP", "localizedName"]
+- !private ["So16NSObjectProtocolP", "output"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "session"]
+- !private ["So16NSObjectProtocolP", "sessionPreset"]
+- !private ["So16NSObjectProtocolP", "startRecording"]
+- !private ["So16NSObjectProtocolP", "startRunning"]
+- !private ["So16NSObjectProtocolP", "started"]
+- !private ["So16NSObjectProtocolP", "stopRecording"]
+- !private ["So16NSObjectProtocolP", "stopRunning"]
+- !private ["So16NSObjectProtocolP", "uniqueID"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["So16AVCaptureSessionC6PresetV", "high"]
+- !private ["So16AVCaptureSessionC6PresetV", "low"]
+- !private ["So16AVCaptureSessionC6PresetV", "medium"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "high"]
+- !private ["s16RawRepresentableP", "low"]
+- !private ["s16RawRepresentableP", "medium"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDeviceInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureMovieFileOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMIOObjectID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMIOObjectPropertyAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMIOObjectPropertyElement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMIOObjectPropertyScope"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMIOObjectPropertySelector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMIOObjectSetPropertyData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Preset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAddInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canAddOutput"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "capture"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "captureDevices"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "captureOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "devices"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fileOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "input"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMIOHardwarePropertyAllowScreenCaptureDevices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMIOObjectPropertyElementMaster"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMIOObjectPropertyScopeGlobal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMIOObjectSystemObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "output"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionPreset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRecording"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "started"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopRecording"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uniqueID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "high"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "low"]
+- !private ["s21_ObjectiveCBridgeableP", "medium"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "high"]
+- !private ["s20_SwiftNewtypeWrapperP", "low"]
+- !private ["s20_SwiftNewtypeWrapperP", "medium"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So19AVCaptureFileOutputC"
+- "So36AVCaptureFileOutputRecordingDelegateP"
+- !private "So14AVCaptureInputC"
+- !private "So24AVCaptureMovieFileOutputC"
+- !private "So15AVCaptureOutputC"
+- !private "So16AVCaptureSessionC"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "SC25CMIOObjectPropertyAddressV"
+- "s7CVarArgP"
+- "9irecorder7CaptureC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "So16AVCaptureSessionC6PresetV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "10Foundation3URLV"
+- !private "s15UnsignedIntegerP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/iRecorder-Bridging-Header.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeader.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeaderHelper.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/support.h"
+interface-hash: "6ce6f844a5ab20723a63da750b2082b5"

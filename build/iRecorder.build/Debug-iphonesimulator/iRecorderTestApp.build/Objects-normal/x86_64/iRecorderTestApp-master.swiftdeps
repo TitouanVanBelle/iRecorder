@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "57c8daf95ec137a142bafd5b3ae71727"
+build_time: [1518763892, 337811000]
+inputs:
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorderTestApp/SecondViewController.swift": [1518763851, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorderTestApp/AppDelegate.swift": [1518763851, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorderTestApp/FirstViewController.swift": [1518763851, 0]

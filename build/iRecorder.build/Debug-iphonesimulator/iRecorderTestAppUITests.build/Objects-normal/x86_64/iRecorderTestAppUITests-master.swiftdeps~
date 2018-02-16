@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7c4a61defba6d9dd1b4655656bd0ed43"
+build_time: [1518764395, 647437000]
+inputs:
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorderTestAppUITests/MockServer.swift": [1518764381, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorderTestAppUITests/iRecorderTestAppUITests.swift": [1518764392, 0]

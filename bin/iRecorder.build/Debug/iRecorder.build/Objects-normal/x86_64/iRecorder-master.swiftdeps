@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b1063eff2ff8fd798e977807e1677cb2"
+build_time: [1518763605, 398935000]
+inputs:
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Classes/CommandLine/Option.swift": [1518183529, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Classes/Trap.swift": [1518175187, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Classes/CommandLine/StringExtensions.swift": [1517904427, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/main.swift": [1518187319, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Classes/Capture.swift": [1518763604, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Classes/Recorder.swift": [1518763465, 0]
+  "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Classes/CommandLine/CommandLine.swift": [1518184031, 0]

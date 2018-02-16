@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "cli"
+- "name"
+- "id"
+- "outFile"
+- "quality"
+- "list"
+- "force"
+- "help"
+- "success"
+- "error"
+- "outValue"
+- "forceValue"
+- "settings"
+- "recordQuality"
+- "recorder"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "!"
+- "AssignmentPrecedence"
+- "BoolOption"
+- "BooleanLiteralType"
+- "CommandLine"
+- "EX_USAGE"
+- "RecordQuality"
+- "RecordSettings"
+- "Recorder"
+- "RunLoop"
+- "StringLiteralType"
+- "StringOption"
+- "Trap"
+- "UnicodeScalarType"
+- "Void"
+- "cli"
+- "error"
+- "exit"
+- "force"
+- "forceValue"
+- "help"
+- "id"
+- "list"
+- "name"
+- "outFile"
+- "outValue"
+- "print"
+- "quality"
+- "recordQuality"
+- "recorder"
+- "settings"
+- "success"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["9irecorder10BoolOptionC", "init"]
+- ["9irecorder10BoolOptionC", "value"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "run"]
+- ["s10CollectionP", "init"]
+- ["9irecorder11CommandLineC", "addOptions"]
+- ["9irecorder11CommandLineC", "init"]
+- ["9irecorder11CommandLineC", "parse"]
+- ["9irecorder11CommandLineC", "printUsage"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "run"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "run"]
+- ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "abort"]
+- ["s9EquatableP", "high"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "interrupt"]
+- ["s9EquatableP", "kill"]
+- ["s9EquatableP", "main"]
+- ["s9EquatableP", "run"]
+- ["s9EquatableP", "termination"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "abort"]
+- ["s8HashableP", "high"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "interrupt"]
+- ["s8HashableP", "kill"]
+- ["s8HashableP", "main"]
+- ["s8HashableP", "run"]
+- ["s8HashableP", "termination"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "run"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "main"]
+- ["So16NSObjectProtocolP", "run"]
+- ["So19NSPasteboardReadingP", "init"]
+- ["So19NSPasteboardWritingP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["9irecorder6OptionC", "init"]
+- ["9irecorder6OptionC", "value"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "high"]
+- ["s16RawRepresentableP", "init"]
+- ["9irecorder13RecordQualityO", "deinit"]
+- ["9irecorder13RecordQualityO", "high"]
+- ["9irecorder13RecordQualityO", "init"]
+- ["9irecorder14RecordSettingsV", "init"]
+- ["9irecorder8RecorderV", "init"]
+- ["9irecorder8RecorderV", "startRecording"]
+- ["9irecorder8RecorderV", "stopRecording"]
+- ["So7RunLoopC", "main"]
+- ["So7RunLoopC", "run"]
+- ["s8SequenceP", "init"]
+- ["9irecorder4TrapC6SignalO", "abort"]
+- ["9irecorder4TrapC6SignalO", "interrupt"]
+- ["9irecorder4TrapC6SignalO", "kill"]
+- ["9irecorder4TrapC6SignalO", "termination"]
+- ["SS", "init"]
+- ["9irecorder12StringOptionC", "init"]
+- ["9irecorder12StringOptionC", "value"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9irecorder4TrapC", "handle"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "run"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "Sb"
+- "9irecorder10BoolOptionC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "9irecorder11CommandLineC"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "9irecorder6OptionC"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "9irecorder13RecordQualityO"
+- "9irecorder14RecordSettingsV"
+- "9irecorder8RecorderV"
+- "So7RunLoopC"
+- "s8SequenceP"
+- "9irecorder4TrapC6SignalO"
+- "SS"
+- "9irecorder12StringOptionC"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9irecorder4TrapC"
+- "s23_BidirectionalIndexableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/iRecorder-Bridging-Header.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeader.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeaderHelper.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/support.h"
+interface-hash: "cf59f323923cdf4120cbf986fb74131d"

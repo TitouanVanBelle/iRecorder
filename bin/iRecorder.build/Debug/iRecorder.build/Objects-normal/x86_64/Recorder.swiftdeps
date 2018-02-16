@@ -1,0 +1,432 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecordQuality"
+- "RecordSettings"
+- "Recorder"
+provides-nominal:
+- "9irecorder13RecordQualityO"
+- "9irecorder14RecordSettingsV"
+- "9irecorder8RecorderV"
+provides-member:
+- ["9irecorder13RecordQualityO", ""]
+- ["9irecorder14RecordSettingsV", ""]
+- ["9irecorder8RecorderV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- !private "AVCaptureDevice"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Capture"
+- !private "CastingPrecedence"
+- !private "EX_OK"
+- !private "EX_SOFTWARE"
+- !private "FileManager"
+- !private "NSError"
+- !private "NSNotification"
+- !private "NotificationCenter"
+- "RecordQuality"
+- "RecordSettings"
+- "Recorder"
+- "String"
+- "StringLiteralType"
+- "XRecord_Bridge"
+- !private "exit"
+- !private "outFile"
+- !private "print"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["So15AVCaptureDeviceC", "localizedName"]
+- !private ["So15AVCaptureDeviceC", "uniqueID"]
+- ["So36AVCaptureFileOutputRecordingDelegateP", "init"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "setDeviceById"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "setDeviceByName"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "setQuality"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "start"]
+- !private ["So36AVCaptureFileOutputRecordingDelegateP", "stop"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "localizedName"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "setDeviceById"]
+- !private ["s7CVarArgP", "setDeviceByName"]
+- !private ["s7CVarArgP", "setQuality"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "startScreenCapturePlugin"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "stopScreenCapturePlugin"]
+- !private ["s7CVarArgP", "uniqueID"]
+- ["9irecorder7CaptureC", "init"]
+- !private ["9irecorder7CaptureC", "setDeviceById"]
+- !private ["9irecorder7CaptureC", "setDeviceByName"]
+- !private ["9irecorder7CaptureC", "setQuality"]
+- !private ["9irecorder7CaptureC", "start"]
+- !private ["9irecorder7CaptureC", "stop"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedName"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "setDeviceById"]
+- !private ["s28CustomDebugStringConvertibleP", "setDeviceByName"]
+- !private ["s28CustomDebugStringConvertibleP", "setQuality"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "startScreenCapturePlugin"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "stopScreenCapturePlugin"]
+- !private ["s28CustomDebugStringConvertibleP", "uniqueID"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "object"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localizedName"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "setDeviceById"]
+- !private ["s23CustomStringConvertibleP", "setDeviceByName"]
+- !private ["s23CustomStringConvertibleP", "setQuality"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "startScreenCapturePlugin"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "stopScreenCapturePlugin"]
+- !private ["s23CustomStringConvertibleP", "uniqueID"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AVCaptureDeviceWasConnected"]
+- !private ["s9EquatableP", "Name"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "fileExists"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "localizedName"]
+- !private ["s9EquatableP", "object"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "removeItem"]
+- !private ["s9EquatableP", "setDeviceById"]
+- !private ["s9EquatableP", "setDeviceByName"]
+- !private ["s9EquatableP", "setQuality"]
+- !private ["s9EquatableP", "start"]
+- !private ["s9EquatableP", "startScreenCapturePlugin"]
+- !private ["s9EquatableP", "stop"]
+- !private ["s9EquatableP", "stopScreenCapturePlugin"]
+- !private ["s9EquatableP", "uniqueID"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "fileExists"]
+- !private ["So11FileManagerC", "removeItem"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "AVCaptureDeviceWasConnected"]
+- !private ["s8HashableP", "Name"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "fileExists"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "localizedName"]
+- !private ["s8HashableP", "object"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "removeItem"]
+- !private ["s8HashableP", "setDeviceById"]
+- !private ["s8HashableP", "setDeviceByName"]
+- !private ["s8HashableP", "setQuality"]
+- !private ["s8HashableP", "start"]
+- !private ["s8HashableP", "startScreenCapturePlugin"]
+- !private ["s8HashableP", "stop"]
+- !private ["s8HashableP", "stopScreenCapturePlugin"]
+- !private ["s8HashableP", "uniqueID"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Name"]
+- ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "Name"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileExists"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "localizedName"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "setDeviceById"]
+- !private ["So8NSObjectC", "setDeviceByName"]
+- !private ["So8NSObjectC", "setQuality"]
+- !private ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "startScreenCapturePlugin"]
+- !private ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "stopScreenCapturePlugin"]
+- !private ["So8NSObjectC", "uniqueID"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "fileExists"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "localizedName"]
+- !private ["So16NSObjectProtocolP", "removeItem"]
+- !private ["So16NSObjectProtocolP", "setDeviceById"]
+- !private ["So16NSObjectProtocolP", "setDeviceByName"]
+- !private ["So16NSObjectProtocolP", "setQuality"]
+- !private ["So16NSObjectProtocolP", "start"]
+- !private ["So16NSObjectProtocolP", "startScreenCapturePlugin"]
+- !private ["So16NSObjectProtocolP", "stop"]
+- !private ["So16NSObjectProtocolP", "stopScreenCapturePlugin"]
+- !private ["So16NSObjectProtocolP", "uniqueID"]
+- ["So19NSPasteboardReadingP", "init"]
+- ["So19NSPasteboardWritingP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["So14NSNotificationC4NameV", "AVCaptureDeviceWasConnected"]
+- !private ["10Foundation12NotificationV", "object"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["9irecorder6OptionC", "value"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "AVCaptureDeviceWasConnected"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- ["9irecorder13RecordQualityO", "RawValue"]
+- ["9irecorder13RecordQualityO", "deinit"]
+- ["9irecorder13RecordQualityO", "hashValue"]
+- ["9irecorder13RecordQualityO", "high"]
+- ["9irecorder13RecordQualityO", "init"]
+- ["9irecorder13RecordQualityO", "low"]
+- ["9irecorder13RecordQualityO", "medium"]
+- ["9irecorder13RecordQualityO", "rawValue"]
+- ["9irecorder14RecordSettingsV", "Bool"]
+- ["9irecorder14RecordSettingsV", "RecordQuality"]
+- ["9irecorder14RecordSettingsV", "String"]
+- ["9irecorder14RecordSettingsV", "deviceId"]
+- ["9irecorder14RecordSettingsV", "deviceName"]
+- ["9irecorder14RecordSettingsV", "force"]
+- ["9irecorder14RecordSettingsV", "init"]
+- ["9irecorder14RecordSettingsV", "output"]
+- ["9irecorder14RecordSettingsV", "quality"]
+- !private ["9irecorder8RecorderV", "AVCaptureDevice"]
+- !private ["9irecorder8RecorderV", "Bool"]
+- ["9irecorder8RecorderV", "Capture"]
+- !private ["9irecorder8RecorderV", "EX_OK"]
+- !private ["9irecorder8RecorderV", "EX_SOFTWARE"]
+- !private ["9irecorder8RecorderV", "FileManager"]
+- !private ["9irecorder8RecorderV", "NSError"]
+- !private ["9irecorder8RecorderV", "NSNotification"]
+- !private ["9irecorder8RecorderV", "NotificationCenter"]
+- ["9irecorder8RecorderV", "RecordSettings"]
+- !private ["9irecorder8RecorderV", "String"]
+- ["9irecorder8RecorderV", "XRecord_Bridge"]
+- ["9irecorder8RecorderV", "capture"]
+- !private ["9irecorder8RecorderV", "deleteFile"]
+- !private ["9irecorder8RecorderV", "exit"]
+- ["9irecorder8RecorderV", "init"]
+- !private ["9irecorder8RecorderV", "outFile"]
+- !private ["9irecorder8RecorderV", "print"]
+- ["9irecorder8RecorderV", "startRecording"]
+- ["9irecorder8RecorderV", "stopRecording"]
+- ["9irecorder8RecorderV", "xRecord_Bridge"]
+- !private ["10Foundation20ReferenceConvertibleP", "object"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- !private ["9irecorder12StringOptionC", "value"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So14XRecord_BridgeC", "init"]
+- !private ["So14XRecord_BridgeC", "startScreenCapturePlugin"]
+- !private ["So14XRecord_BridgeC", "stopScreenCapturePlugin"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDeviceById"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDeviceByName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setQuality"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startScreenCapturePlugin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopScreenCapturePlugin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uniqueID"]
+- !private ["s21_ObjectiveCBridgeableP", "AVCaptureDeviceWasConnected"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "object"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "AVCaptureDeviceWasConnected"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- "So36AVCaptureFileOutputRecordingDelegateP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "9irecorder7CaptureC"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11FileManagerC"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So14NSNotificationC4NameV"
+- !private "10Foundation12NotificationV"
+- !private "So18NotificationCenterC"
+- !private "s7NumericP"
+- !private "9irecorder6OptionC"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "9irecorder13RecordQualityO"
+- "9irecorder14RecordSettingsV"
+- "9irecorder8RecorderV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- !private "9irecorder12StringOptionC"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So14XRecord_BridgeC"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/iRecorder-Bridging-Header.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeader.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/PluginHeaderHelper.h"
+- "/Users/tvanbelle/Documents/workspace/iRecorder/iRecorder/Support/support.h"
+interface-hash: "26ef346484e5ac90def37a4d9b6a0882"
